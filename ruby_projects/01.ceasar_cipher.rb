@@ -11,5 +11,4 @@ def caesar_cipher(string, number = 0)
     end
     return result.join("");
 end
-
 puts caesar_cipher("What a string!", 5)
